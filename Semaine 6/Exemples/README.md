@@ -11,7 +11,7 @@ Pour ouvrir un coffre, on doit trouver la combinaison à trois chiffres sachant 
 
 
 ## Exercice 2
-Soit un mot est composable à partir d’une séquence de lettres si le mot est contenu dans la séquence ou dans la séquence inversée. Par exemple, 
+Un mot est composable à partir d’une séquence de lettres si le mot est contenu dans la séquence ou dans la séquence inversée. Par exemple, 
 - coucou est composable à partir de rena*uocuoc*
 - coucou est composable à partir de *coucou*ner
 
