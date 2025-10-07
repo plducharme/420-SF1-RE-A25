@@ -7,3 +7,4 @@ print(random.choice(liste_choix))
 print(random.choice(liste_choix))
 print(random.choice(liste_choix))
 print(random.choice(liste_choix))
+
