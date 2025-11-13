@@ -11,6 +11,7 @@ print(somme(5, 9, 12, 2))
 
 
 def afficher_arguments(**kwargs):
+    print(kwargs)
     for k, v in kwargs.items():
         print(k + ':\t' + v)
 
