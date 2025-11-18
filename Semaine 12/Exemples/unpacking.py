@@ -8,6 +8,7 @@ def somme(*entiers):
 
 
 print(somme(5, 9, 12, 2))
+print(somme(1, 42, 98, 156, -7, 65))
 
 
 def afficher_arguments(**kwargs):

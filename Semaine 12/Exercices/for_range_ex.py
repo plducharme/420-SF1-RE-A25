@@ -15,11 +15,12 @@ liste_valeurs = [42, 666, 89, 26, 99]
 # pour en faire une liste à 1D
 tableau_2d = [["Ils", "ne", "sont"], ["grands", "que", "parce", "que", "nous"], ["sommes", "à", "genoux"]]
 
-tableau_1d = []
+# Parcourir tableau_2d pour imprimer la phrase sur la même ligne
 
 
-# Reconstituer la phrase dans le tableau_1d en ajoutant des espaces entre chaque mot
+# Reconstituer la phrase dans la variable "phrase" en ajoutant des espaces entre chaque mot
 # i.e. il y a une fonction de str pour cela
+phrase = ""
 
 
 # Imprimer sur une même ligne les 15 premiers nombres de la suite Fibonacci
@@ -28,3 +29,6 @@ tableau_1d = []
 # Imprimer les multiples de 4 entre 1 et 100 séparés par les caractères "***"
 
 
+# Utiliser une boucle for avec un range() pour parcourir la liste suivante à partir de la fin en affichant les éléments
+# séparés par "-"
+liste_inversee = ["croque!", "me", "cric", "grand", "le", "Que"]

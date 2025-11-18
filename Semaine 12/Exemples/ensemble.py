@@ -8,10 +8,10 @@ garde_manger = set(['banane', 'poire'])
 frigidaire = {x for x in panier if x not in garde_manger}
 print(frigidaire)
 
-# fruits dans panier moins ceux dans fruits (différence)
+# Éléments dans panier moins ceux dans fruits (différence)
 print(panier - fruits)
 
-# fruits dans fruits moins ceux dans panier
+# Éléments dans fruits moins ceux dans panier
 print(fruits - panier)
 
 # items dans fruits ou panier (union)
