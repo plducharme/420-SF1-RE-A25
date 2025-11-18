@@ -3,9 +3,18 @@
 
 cypher = "Awrp1+p>7rL[e6qn-md,tr[meAd dslRqe,i |ppU=y@=t-<h^no(ynpj j$eoMs}<t<u uXc<#o6fo0Tl@&!ZG"
 
+for i in range(0, len(cypher)-1, 3):
+    print(cypher[i], end="")
 
+print("*" * 8)
 # Imprimer la liste des éléments d'une liste dans l'ordre inverse en utilisant une boucle for
 liste_elems = ["Phasmophobia", "Total War: Warhammer 3", "Paladins", "Tavern Keeper"]
+
+for i in range(len(liste_elems)-1, -1, -1):
+    print(liste_elems[i])
+
+for i in range(-1, -len(liste_elems)-1, -1):
+    print(liste_elems[i])
 
 
 # Imprimer la liste des éléments d'une liste dans l'ordre inverse en utilisant un built-in de python
@@ -15,6 +24,21 @@ liste_valeurs = [42, 666, 89, 26, 99]
 # pour en faire une liste à 1D
 tableau_2d = [["Ils", "ne", "sont"], ["grands", "que", "parce", "que", "nous"], ["sommes", "à", "genoux"]]
 tableau_1d = []
+
+for sous_liste in tableau_2d:
+    for mot in sous_liste:
+        tableau_1d.append(mot)
+
+print(tableau_1d)
+
+tableau_1d_2 = []
+for i in range(len(tableau_2d)):
+    for j in range(len(tableau_2d[i])):
+        tableau_1d_2.append(tableau_2d[i][j])
+
+print(tableau_1d_2)
+
+
 # Parcourir tableau_2d pour imprimer la phrase sur la même ligne
 
 
