@@ -26,7 +26,7 @@ class Personne:
             self.taille) + " Adresse=" + self.adresse)
 
 
-# Ex d’utilisation: on crée deux objets de type personnes
+# Ex d’utilisation : on crée deux objets de type personnes
 mireille = Personne("Mireille", "Gagné", 3, 1.2)
 salim = Personne("Salim", "Rajhi", 9, 1.85)
 # p3= Personne("Sarah", "Rajhi")

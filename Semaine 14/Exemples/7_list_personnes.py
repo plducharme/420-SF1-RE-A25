@@ -1,15 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on 2020
-
-@author:
-"""
-
-
 # Classe Personne
 class Personne:
     # Constructeur tous les objets personnes habitent LAVAL
-    # propritétés: nom, prenom, age, adresse
+    # propriétés: nom, prenom, age, adresse
     def __init__(self, nom, prenom, age, taille):
         self.nom = nom
         self.prenom = prenom
@@ -25,9 +17,9 @@ class Personne:
         print("Prenom=" + self.prenom + " Nom=" + self.nom + " Age=" + str(self.age) + " Taille=" + str(
             self.taille) + " Adresse=" + self.adresse)
 
-    def toString(self):
-        return ("Prenom=" + self.prenom + " Nom=" + self.nom + " Age=" + str(self.age) + " Taille=" + str(
-            self.taille) + " Adresse=" + self.adresse)
+    def to_string(self):
+        return "Prenom=" + self.prenom + " Nom=" + self.nom + " Age=" + str(self.age) + " Taille=" + str(
+            self.taille) + " Adresse=" + self.adresse
 
 
 # Ex d’utilisation: on crée deux objets de type personnes
