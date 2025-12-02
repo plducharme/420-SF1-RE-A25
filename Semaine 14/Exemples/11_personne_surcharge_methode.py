@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on 2020
-
-@author:
-"""
-
-
 # Classe Personne
 class Personne:
     # Constructeur tous les objets personnes habitent LAVAL
@@ -41,6 +33,6 @@ p1.info()
 p1.veillir(3, 6, "ottawa")  # surcharge de la méthode veillir
 p1.info()
 
-# objet p2
-# p2.veillir()
-# p2.info()  #
+##objet p2
+#p2.veillir()
+#p2.info()  #

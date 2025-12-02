@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on 2020
-
-@author:
-"""
-
-
 # Classe Personne
 class Personne:
     # Constructeur tous les objets personnes habitent LAVAL
@@ -46,6 +38,6 @@ p1.info()
 p3.info()
 p4.info()
 p5.info()
-# objet p2
+##objet p2
 p2.veillir()
 p2.info()  #
