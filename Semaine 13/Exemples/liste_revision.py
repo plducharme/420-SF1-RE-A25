@@ -3,7 +3,7 @@ ma_liste = []
 ma_liste1 = list()
 
 # Déclaration avec des éléments
-ma_liste3 = [1, 2 ,3 ,4]
+ma_liste3 = [1, 2, 3, 4]
 
 # Déclaration en compréhension
 ma_liste4 = [x for x in range(10)]
