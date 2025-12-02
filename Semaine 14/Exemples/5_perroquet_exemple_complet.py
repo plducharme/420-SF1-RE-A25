@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 28 21:12:40 2020
-
-@author:
-"""
-
-
 # Classe Perroquet
 class Perroquet:
     # Constructeur
@@ -16,19 +8,19 @@ class Perroquet:
 
     # Méthodes
     def repete(self, phrase):
-        print( self.nom + " dit: " + phrase )
+        print(self.nom + " dit: " + phrase)
     
-    def envoleToi(self,altitude):
+    def envole_toi(self, altitude):
         self.altitude = altitude
 
 
 # Ex d’utilisation: on crée deux objets de type Perroquet
-mon_perroquet = Perroquet("Coco",3)
-jaco = Perroquet("Jaco",0)
+mon_perroquet = Perroquet("Coco", 3)
+jaco = Perroquet("Jaco", 0)
 
 # On appelle des méthodes sur ces objets
 
-mon_perroquet.envoleToi(20)
+mon_perroquet.envole_toi(20)
 jaco.repete("Coco s’envole!")  # Jaco dit: Coco s’envole!
 
 

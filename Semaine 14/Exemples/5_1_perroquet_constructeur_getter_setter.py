@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 28 19:11:41 2020
-
-@author:
-"""
-
-
 # Classe Perroquet
 class Perroquet:
     # Constructeur
@@ -17,11 +9,11 @@ class Perroquet:
     def repete(self, phrase):
         print(self.nom + " dit: " + phrase)
 
-    def getNom(self):
-        return (self.nom)
+    def get_nom(self):
+        return self.nom
 
-    def setNom(self):
-        self.nom = "JACO"
+    def set_nom(self, nom):
+        self.nom = nom
 
     def affiche(self):
         print("nom= " + self.nom + " age= " + str(self.age))
@@ -30,8 +22,8 @@ class Perroquet:
 # programme principal
 perroquet1 = Perroquet("Coco", 3)
 # print(perroquet1.nom)       # Coco
-print(perroquet1.getNom());  # la bonne maniere qui respecte l'encapsulation : principe de OO
-perroquet1.setNom();
-print(perroquet1.getNom());
+print(perroquet1.get_nom())  # la bonne maniere qui respecte l'encapsulation : principe de OO
+perroquet1.set_nom("Jaco")
+print(perroquet1.get_nom())
 perroquet1.affiche()
 perroquet1.repete('"Bonjour les pirates!"')  # Coco dit: "Bonjour les pirates!"
