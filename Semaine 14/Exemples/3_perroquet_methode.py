@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 28 19:58:23 2020
-
-@author:
-"""
-
-
 # Classe Perroquet
 class Perroquet:
     def repete(self, phrase):

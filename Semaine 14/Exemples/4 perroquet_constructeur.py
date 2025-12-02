@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 28 19:11:41 2020
-
-@author:
-"""
-
-
 # Classe Perroquet
 class Perroquet:
 
@@ -25,4 +17,12 @@ print(perroquet1.nom)       # Coco
 
 print(perroquet1.age)       # 3
 print(perroquet1.altitude)  # 0
-perroquet1.repete('"Bonjour les pirates!"')  # Coco dit: "Bonjour les pirates!"
+perroquet1.repete('"Bonjour les pirates!"') # Coco dit: "Bonjour les pirates!"
+
+print(perroquet1.nom, perroquet1.age)
+
+jaco = Perroquet("Jaco", 4)
+polly = Perroquet("Polly", 2)
+
+print(jaco.nom)
+print(polly.nom)
