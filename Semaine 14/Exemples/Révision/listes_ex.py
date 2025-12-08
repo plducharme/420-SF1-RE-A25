@@ -5,3 +5,7 @@ nouvelle_liste = ma_liste[1:3]
 print(nouvelle_liste)
 
 print(ma_liste[0::2])
+
+# Si on appelle l'opérateur de tranchage (slicing) comme ceci, cela va inverser la séquence (liste, str, etc)
+print(ma_liste[::-1])
+

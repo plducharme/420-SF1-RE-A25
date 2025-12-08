@@ -50,5 +50,3 @@ def modif_liste(liste_a_modifier: list):
 liste = [1, 2, 3, 4]
 modif_liste(liste)
 print(liste)
-
-
